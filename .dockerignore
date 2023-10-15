@@ -1,0 +1,9 @@
+Dockerfile
+.dockerignore
+.git
+.gitignore
+nest-cli.json
+docker-compose.yml
+node_modules
+npm-debug.log
+dist
