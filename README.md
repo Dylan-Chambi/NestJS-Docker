@@ -1,6 +1,6 @@
 # Cats Backend con NestJS
 
-Este proyecto es simple backend CRUD para gatos, desarrollado con NestJS, TypeORM y MySQL.
+Este proyecto es simple backend CRUD para gatos, desarrollado con NestJS, TypeORM y MySQL. Además, se utiliza Docker para contenerizar la aplicación y Docker Compose para desplegar la aplicación junto con la base de datos.
 
 ## Requisitos
 - Windows: WSL2
@@ -13,13 +13,18 @@ Este proyecto es simple backend CRUD para gatos, desarrollado con NestJS, TypeOR
 $ git clone https://github.com/Dylan-Chambi/NestJS-Docker.git
 ```
 
+## Entrar al directorio del proyecto
+```bash
+$ cd NestJS-Docker
+```
+
 ## Levantar el proyecto
 ```bash
-docker-compose up
+docker compose up
 ```
 ó
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ## Acceder al backend mediante Swagger UI
@@ -103,7 +108,7 @@ http://localhost:9350/api
 ```json
 {
   "id": 1,
-  "name": "Kitteh Purr",
+  "name": "Kitty Purr",
   "age": 5,
   "breed": "Persian"
 }
